@@ -11,7 +11,7 @@ int len = removeElement(nums, val);
 for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
-``` 
+```
 
 - 示例 1：
   输入：nums = [3,2,2,3], val = 3
