@@ -17,6 +17,7 @@ class Solution:
                     #print(digits[N-2])
                 else:
                     digits[N-2] = digits[N-2] + 1
+                '''进位后，高一位如小于10，则无需再进位，不然要向更高位进位'''
                 if digits[N-2] < 10:
                     break
                 N = N -1
